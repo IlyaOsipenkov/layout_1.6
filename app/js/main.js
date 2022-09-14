@@ -1,4 +1,5 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./js/main.js":
@@ -7,12 +8,10 @@
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_focus_visible_dist_focus_visible__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/focus-visible/dist/focus-visible */ "../node_modules/focus-visible/dist/focus-visible.js");
 /* harmony import */ var _node_modules_focus_visible_dist_focus_visible__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_focus_visible_dist_focus_visible__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/main.scss */ "./scss/main.scss");
-/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../index.html */ "./index.html");
 
 
@@ -26,7 +25,6 @@ __webpack_require__.r(__webpack_exports__);
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -66,9 +64,11 @@ var code = "<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n\r\n<head>\r\n  <meta chars
 /*!************************!*\
   !*** ./scss/main.scss ***!
   \************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\nHookWebpackError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\nSassError: File to import not found or unreadable: ./main-menu/top-services.\n        on line 1 of src/scss/main-content.scss\n        from line 7 of src/scss/main.scss\n>> @import \"./main-menu/top-services\";\r\n   ^\n\n    at tryRunOrWebpackError (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\HookWebpackError.js:88:9)\n    at __webpack_require_module__ (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5051:12)\n    at __webpack_require__ (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5008:18)\n    at C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5079:20\n    at symbolIterator (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\neo-async\\async.js:3485:9)\n    at done (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\neo-async\\async.js:3527:9)\n    at Hook.eval [as callAsync] (eval at create (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\tapable\\lib\\Hook.js:18:14)\n    at C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:4986:43\n    at symbolIterator (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\neo-async\\async.js:3482:9)\n-- inner error --\nError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\nSassError: File to import not found or unreadable: ./main-menu/top-services.\n        on line 1 of src/scss/main-content.scss\n        from line 7 of src/scss/main.scss\n>> @import \"./main-menu/top-services\";\r\n   ^\n\n    at Object.<anonymous> (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\css-loader\\dist\\cjs.js!C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\sass-loader\\dist\\cjs.js!C:\\Users\\dakar\\Desktop\\layout_1.6\\src\\scss\\main.scss:1:7)\n    at C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\javascript\\JavascriptModulesPlugin.js:441:11\n    at Hook.eval [as call] (eval at create (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\tapable\\lib\\HookCodeFactory.js:19:10), <anonymous>:7:1)\n    at Hook.CALL_DELEGATE [as _call] (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\tapable\\lib\\Hook.js:14:14)\n    at C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5053:39\n    at tryRunOrWebpackError (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\HookWebpackError.js:83:7)\n    at __webpack_require_module__ (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5051:12)\n    at __webpack_require__ (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5008:18)\n    at C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5079:20\n    at symbolIterator (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\neo-async\\async.js:3485:9)\n\nGenerated code for C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\css-loader\\dist\\cjs.js!C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\sass-loader\\dist\\cjs.js!C:\\Users\\dakar\\Desktop\\layout_1.6\\src\\scss\\main.scss\n1 | throw new Error(\"Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: File to import not found or unreadable: ./main-menu/top-services.\\n        on line 1 of src/scss/main-content.scss\\n        from line 7 of src/scss/main.scss\\n>> @import \\\"./main-menu/top-services\\\";\\r\\n   ^\\n\");");
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -78,7 +78,6 @@ throw new Error("Module build failed (from ../node_modules/mini-css-extract-plug
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "img/favicon.ico";
 
 /***/ }),
@@ -89,7 +88,6 @@ module.exports = __webpack_require__.p + "img/favicon.ico";
   \************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "img/burger.svg";
 
 /***/ }),
@@ -100,7 +98,6 @@ module.exports = __webpack_require__.p + "img/burger.svg";
   \**********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "img/call.svg";
 
 /***/ }),
@@ -111,7 +108,6 @@ module.exports = __webpack_require__.p + "img/call.svg";
   \**********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "img/chat.svg";
 
 /***/ }),
@@ -122,7 +118,6 @@ module.exports = __webpack_require__.p + "img/chat.svg";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "img/checkstatus.svg";
 
 /***/ }),
@@ -133,7 +128,6 @@ module.exports = __webpack_require__.p + "img/checkstatus.svg";
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "img/divider.svg";
 
 /***/ }),
@@ -144,7 +138,6 @@ module.exports = __webpack_require__.p + "img/divider.svg";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "img/dividerAqua.svg";
 
 /***/ }),
@@ -155,7 +148,6 @@ module.exports = __webpack_require__.p + "img/dividerAqua.svg";
   \**********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "img/logo.svg";
 
 /***/ }),
@@ -166,7 +158,6 @@ module.exports = __webpack_require__.p + "img/logo.svg";
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "img/profile.svg";
 
 /***/ }),
@@ -177,7 +168,6 @@ module.exports = __webpack_require__.p + "img/profile.svg";
   \************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "img/repair.svg";
 
 /***/ })
