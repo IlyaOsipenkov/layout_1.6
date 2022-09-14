@@ -1,0 +1,24 @@
+@import "mixins";
+@import "fonts";
+@import "vendor";
+@import "vars";
+@import "settings";
+@import "header";
+
+
+*,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
