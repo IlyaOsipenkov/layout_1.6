@@ -13,11 +13,16 @@
   padding: 0;
 }
 
+body {
+  font-family: $tt-regular;
+}
+
+
 a {
   text-decoration: none;
 }
 
-.button {
+button {
   border: none;
   outline: none;
   background-color: transparent;
