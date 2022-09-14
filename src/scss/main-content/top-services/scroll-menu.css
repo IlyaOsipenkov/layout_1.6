@@ -14,6 +14,7 @@
 @media screen and (min-width: 1366px) {
   .scroll-menu {
     margin-left: 34px;
+    white-space: wrap;
   }
 }
 .scroll-menu::-webkit-scrollbar {
@@ -35,4 +36,7 @@
   background: #FFFFFF;
   border: 2px solid #B8FFEC;
   border-radius: 6px;
+}
+.scroll-menu__element-button p {
+  color: #7E7E82;
 }/*# sourceMappingURL=scroll-menu.css.map */
