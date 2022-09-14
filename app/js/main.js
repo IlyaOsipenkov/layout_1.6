@@ -1,5 +1,4 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./js/main.js":
@@ -8,10 +7,12 @@
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_focus_visible_dist_focus_visible__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/focus-visible/dist/focus-visible */ "../node_modules/focus-visible/dist/focus-visible.js");
 /* harmony import */ var _node_modules_focus_visible_dist_focus_visible__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_focus_visible_dist_focus_visible__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/main.scss */ "./scss/main.scss");
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../index.html */ "./index.html");
 
 
@@ -25,6 +26,7 @@ __webpack_require__.r(__webpack_exports__);
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -54,7 +56,7 @@ var ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_get
 var ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___);
 var ___HTML_LOADER_REPLACEMENT_8___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_8___);
 var ___HTML_LOADER_REPLACEMENT_9___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_9___);
-var code = "<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <link rel=\"shortcut icon\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" type=\"image/x-icon\">\r\n  <title>Lay out 1.6</title>\r\n</head>\r\n\r\n<body>\r\n\r\n  <header class=\"header-layout\">\r\n    <div class=\"top-menu\">\r\n      <div class=\"top-menu__background\">\r\n        <div class=\"top-menu__wrapper\">\r\n          <button class=\"top-menu__burger button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"menu\">\r\n          </button>\r\n          <div class=\"divider\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"divider\">\r\n          </div>\r\n          <button class=\"top-menu__logo button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"logo\">\r\n          </button>\r\n\r\n          <button class=\"top-menu__call top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\" alt=\"call\">\r\n          </button>\r\n          <button class=\"top-menu__chat top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\" alt=\"chat\">\r\n          </button>\r\n          <button class=\"top-menu__profile top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\" alt=\"profile\">\r\n          </button>\r\n          <div class=\"divider\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"divider\">\r\n          </div>\r\n          <button class=\"top-menu__repair button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\" alt=\"\">\r\n          </button>\r\n          <button class=\"top-menu__checkstatus button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\" alt=\"checkstatus\">\r\n          </button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </header>\r\n\r\n  <main class=\"main-sections\">\r\n    <section class=\"top-services\">\r\n      <div class=\"holder\">\r\n        <div class=\"holder__divider\">\r\n          <img src=\"" + ___HTML_LOADER_REPLACEMENT_9___ + "\" alt=\"divider aqua\">\r\n        </div>\r\n        <div class=\"holder__text\">\r\n          <h1>Услуги и сервисы</h1>\r\n        </div>\r\n      </div>\r\n\r\n    </section>\r\n\r\n  </main>\r\n</body>\r\n\r\n</html>";
+var code = "<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <link rel=\"shortcut icon\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" type=\"image/x-icon\">\r\n  <title>Lay out 1.6</title>\r\n</head>\r\n\r\n<body>\r\n\r\n  <header class=\"header-layout\">\r\n    <div class=\"top-menu\">\r\n      <div class=\"top-menu__background\">\r\n        <div class=\"top-menu__wrapper\">\r\n          <button class=\"top-menu__burger button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"menu\">\r\n          </button>\r\n          <div class=\"top-menu__divider\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"divider\">\r\n          </div>\r\n          <button class=\"top-menu__logo button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"logo\">\r\n          </button>\r\n\r\n          <button class=\"top-menu__call top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\" alt=\"call\">\r\n          </button>\r\n          <button class=\"top-menu__chat top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\" alt=\"chat\">\r\n          </button>\r\n          <button class=\"top-menu__profile top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\" alt=\"profile\">\r\n          </button>\r\n          <div class=\"top-menu__divider\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"divider\">\r\n          </div>\r\n          <button class=\"top-menu__repair button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\" alt=\"\">\r\n          </button>\r\n          <button class=\"top-menu__checkstatus button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\" alt=\"checkstatus\">\r\n          </button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </header>\r\n\r\n  <main class=\"main-content\">\r\n    <section class=\"top-services\">\r\n      <div class=\"holder\">\r\n        <div class=\"holder__divider\">\r\n          <img src=\"" + ___HTML_LOADER_REPLACEMENT_9___ + "\" alt=\"divider aqua\">\r\n        </div>\r\n        <div class=\"holder__text\">\r\n          <h1>Услуги и сервисы</h1>\r\n        </div>\r\n      </div>\r\n      <ul class=\"scroll-menu\">\r\n        <li class=\"scroll-menu__element \"><button class=\"scroll-menu__element-button button\">Ремонтируемые\r\n            устройства</button></li>\r\n        <li class=\"scroll-menu__element \"><button class=\"scroll-menu__element-button button\">Цены на услуги</button>\r\n        </li>\r\n        <li class=\"scroll-menu__element \"><button class=\"scroll-menu__element-button button\">Адреса сервесных\r\n            центров</button></li>\r\n        <li class=\"scroll-menu__element \"><button class=\"scroll-menu__element-button button\">Специальные\r\n            цены</button></li>\r\n        <li class=\"scroll-menu__element \"><button class=\"scroll-menu__element-button button\">Отзывы</button></li>\r\n        <li class=\"scroll-menu__element \"><button class=\"scroll-menu__element-button button\">Ремонтируемые\r\n            бренды</button>\r\n        </li>\r\n      </ul>\r\n    </section>\r\n\r\n  </main>\r\n</body>\r\n\r\n</html>";
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);
 
@@ -64,11 +66,9 @@ var code = "<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n\r\n<head>\r\n  <meta chars
 /*!************************!*\
   !*** ./scss/main.scss ***!
   \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
+throw new Error("Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\nHookWebpackError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\nSassError: File to import not found or unreadable: ./main-menu/top-services.\n        on line 1 of src/scss/main-content.scss\n        from line 7 of src/scss/main.scss\n>> @import \"./main-menu/top-services\";\r\n   ^\n\n    at tryRunOrWebpackError (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\HookWebpackError.js:88:9)\n    at __webpack_require_module__ (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5051:12)\n    at __webpack_require__ (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5008:18)\n    at C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5079:20\n    at symbolIterator (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\neo-async\\async.js:3485:9)\n    at done (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\neo-async\\async.js:3527:9)\n    at Hook.eval [as callAsync] (eval at create (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\tapable\\lib\\Hook.js:18:14)\n    at C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:4986:43\n    at symbolIterator (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\neo-async\\async.js:3482:9)\n-- inner error --\nError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\nSassError: File to import not found or unreadable: ./main-menu/top-services.\n        on line 1 of src/scss/main-content.scss\n        from line 7 of src/scss/main.scss\n>> @import \"./main-menu/top-services\";\r\n   ^\n\n    at Object.<anonymous> (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\css-loader\\dist\\cjs.js!C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\sass-loader\\dist\\cjs.js!C:\\Users\\dakar\\Desktop\\layout_1.6\\src\\scss\\main.scss:1:7)\n    at C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\javascript\\JavascriptModulesPlugin.js:441:11\n    at Hook.eval [as call] (eval at create (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\tapable\\lib\\HookCodeFactory.js:19:10), <anonymous>:7:1)\n    at Hook.CALL_DELEGATE [as _call] (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\tapable\\lib\\Hook.js:14:14)\n    at C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5053:39\n    at tryRunOrWebpackError (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\HookWebpackError.js:83:7)\n    at __webpack_require_module__ (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5051:12)\n    at __webpack_require__ (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5008:18)\n    at C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\webpack\\lib\\Compilation.js:5079:20\n    at symbolIterator (C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\neo-async\\async.js:3485:9)\n\nGenerated code for C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\css-loader\\dist\\cjs.js!C:\\Users\\dakar\\Desktop\\layout_1.6\\node_modules\\sass-loader\\dist\\cjs.js!C:\\Users\\dakar\\Desktop\\layout_1.6\\src\\scss\\main.scss\n1 | throw new Error(\"Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: File to import not found or unreadable: ./main-menu/top-services.\\n        on line 1 of src/scss/main-content.scss\\n        from line 7 of src/scss/main.scss\\n>> @import \\\"./main-menu/top-services\\\";\\r\\n   ^\\n\");");
 
 /***/ }),
 
@@ -78,6 +78,7 @@ __webpack_require__.r(__webpack_exports__);
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "img/favicon.ico";
 
 /***/ }),
@@ -88,6 +89,7 @@ module.exports = __webpack_require__.p + "img/favicon.ico";
   \************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "img/burger.svg";
 
 /***/ }),
@@ -98,6 +100,7 @@ module.exports = __webpack_require__.p + "img/burger.svg";
   \**********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "img/call.svg";
 
 /***/ }),
@@ -108,6 +111,7 @@ module.exports = __webpack_require__.p + "img/call.svg";
   \**********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "img/chat.svg";
 
 /***/ }),
@@ -118,6 +122,7 @@ module.exports = __webpack_require__.p + "img/chat.svg";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "img/checkstatus.svg";
 
 /***/ }),
@@ -128,6 +133,7 @@ module.exports = __webpack_require__.p + "img/checkstatus.svg";
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "img/divider.svg";
 
 /***/ }),
@@ -138,6 +144,7 @@ module.exports = __webpack_require__.p + "img/divider.svg";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "img/dividerAqua.svg";
 
 /***/ }),
@@ -148,6 +155,7 @@ module.exports = __webpack_require__.p + "img/dividerAqua.svg";
   \**********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "img/logo.svg";
 
 /***/ }),
@@ -158,6 +166,7 @@ module.exports = __webpack_require__.p + "img/logo.svg";
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "img/profile.svg";
 
 /***/ }),
@@ -168,6 +177,7 @@ module.exports = __webpack_require__.p + "img/profile.svg";
   \************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "img/repair.svg";
 
 /***/ })

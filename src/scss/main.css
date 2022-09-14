@@ -7,6 +7,18 @@
   font-display: swap;
   font-style: normal;
 }
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url(../fonts/TTLakes-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "TT Lakes Medium";
+  src: url(../fonts/TTLakes-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "TT Lakes Bold";
+  src: url(../fonts/TTLakes-Bold.woff) format("woff");
+}
 /* Цвет таблицы */
 /* Цвет граней */
 /* Цвет элементов заголовка */
@@ -122,33 +134,102 @@ footer {
   }
 }
 
+.header-layout {
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 1366px) {
+  .header-layout {
+    display: none;
+  }
+}
+
 .top-menu__background {
   width: 100vw;
   min-height: 88px;
   background-color: white;
 }
 .top-menu__wrapper {
-  width: 95%;
+  width: 90%;
   min-height: 88px;
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .top-menu__wrapper {
+    width: calc(100vw - 48px);
+    justify-content: start;
+    gap: 16px;
+  }
 }
 .top-menu--hidden {
   display: none;
 }
-.top-menu__call {
-  display: block;
+@media screen and (min-width: 768px) {
+  .top-menu--hidden {
+    display: block;
+  }
 }
-
-.divider:first-of-type {
+.top-menu__call {
+  transition: margin-left 0.1s ease;
+}
+@media screen and (min-width: 768px) {
+  .top-menu__call {
+    margin-left: 30vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .top-menu__call {
+    margin-left: 41vw;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .top-menu__call {
+    margin-left: 47vw;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .top-menu__call {
+    margin-left: 54vw;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .top-menu__call {
+    margin-left: 59vw;
+  }
+}
+.top-menu .divider:first-of-type {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .divider:first-of-type {
+  .top-menu .divider:first-of-type {
     display: block;
   }
+}
+@media screen and (min-width: 768px) {
+  .top-menu .divider {
+    margin: 0 4px;
+  }
+}
+
+.holder {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+@media screen and (min-width: 768px) {
+  .holder {
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .holder {
+    gap: 30px;
+  }
+}
+.holder__text {
+  font-family: "TT Lakes Bold";
 }
 
 *,

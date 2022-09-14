@@ -1,3 +1,6 @@
+.header-layout {
+  margin-bottom: 24px;
+}
 @media screen and (min-width: 1366px) {
   .header-layout {
     display: none;
@@ -33,7 +36,7 @@
   }
 }
 .top-menu__call {
-  transition: margin-left 1s ease;
+  transition: margin-left 0.1s ease;
 }
 @media screen and (min-width: 768px) {
   .top-menu__call {
@@ -60,17 +63,16 @@
     margin-left: 59vw;
   }
 }
-
-.divider:first-of-type {
+.top-menu__divider:first-of-type {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .divider:first-of-type {
+  .top-menu__divider:first-of-type {
     display: block;
   }
 }
 @media screen and (min-width: 768px) {
-  .divider {
+  .top-menu__divider {
     margin: 0 4px;
   }
 }/*# sourceMappingURL=header.css.map */

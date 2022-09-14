@@ -1,0 +1,19 @@
+.holder {
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    @media screen and (min-width: 768px) {
+        gap: 20px;
+    }
+
+    @media screen and (min-width: 1366px) {
+        gap: 30px;
+    }
+
+    &__text {
+        font-family: $tt-bold;
+    }
+}

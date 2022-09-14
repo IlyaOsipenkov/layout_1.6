@@ -1,5 +1,7 @@
 .header-layout {
 
+    margin-bottom: 24px;
+
     @media screen and (min-width: 1366px) {
         display: none;
     }
@@ -38,7 +40,7 @@
     }
 
     &__call {
-        transition: margin-left 1s ease;
+        transition: margin-left 0.1s ease;
 
         @media screen and (min-width: 768px) {
             margin-left: 30vw;
@@ -61,20 +63,19 @@
         }
 
     }
-}
 
+    &__divider {
 
-.divider {
+        &:first-of-type {
+            display: none;
 
-    &:first-of-type {
-        display: none;
+            @media screen and (min-width: 768px) {
+                display: block;
+            }
+        }
 
         @media screen and (min-width: 768px) {
-            display: block;
+            margin: 0 4px;
         }
-    }
-
-    @media screen and (min-width: 768px) {
-        margin: 0 4px;
     }
 }
