@@ -42,6 +42,7 @@ var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(
 var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./img/profile.svg */ "./img/profile.svg"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ./img/repair.svg */ "./img/repair.svg"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ./img/checkstatus.svg */ "./img/checkstatus.svg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ./img/dividerAqua.svg */ "./img/dividerAqua.svg"), __webpack_require__.b);
 // Module
 var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);
 var ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);
@@ -52,7 +53,8 @@ var ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_get
 var ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);
 var ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___);
 var ___HTML_LOADER_REPLACEMENT_8___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_8___);
-var code = "<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <link rel=\"shortcut icon\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" type=\"image/x-icon\">\r\n  <title>Lay out 1.6</title>\r\n</head>\r\n\r\n<body>\r\n\r\n  <header class=\"header-layout\">\r\n    <div class=\"top-menu\">\r\n      <div class=\"top-menu__background\">\r\n        <div class=\"top-menu__wrapper\">\r\n          <button class=\"top-menu__burger button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"menu\">\r\n          </button>\r\n          <div class=\"divider\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"divider\">\r\n          </div>\r\n          <button class=\"top-menu__logo button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"logo\">\r\n          </button>\r\n\r\n          <button class=\"top-menu__call top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\" alt=\"call\">\r\n          </button>\r\n          <button class=\"top-menu__chat top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\" alt=\"chat\">\r\n          </button>\r\n          <button class=\"top-menu__profile top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\" alt=\"profile\">\r\n          </button>\r\n          <div class=\"divider\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"divider\">\r\n          </div>\r\n          <button class=\"top-menu__repair button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\" alt=\"\">\r\n          </button>\r\n          <button class=\"top-menu__checkstatus button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\" alt=\"checkstatus\">\r\n          </button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </header>\r\n</body>\r\n\r\n</html>";
+var ___HTML_LOADER_REPLACEMENT_9___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_9___);
+var code = "<!DOCTYPE html>\r\n<html lang=\"ru\">\r\n\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <link rel=\"shortcut icon\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" type=\"image/x-icon\">\r\n  <title>Lay out 1.6</title>\r\n</head>\r\n\r\n<body>\r\n\r\n  <header class=\"header-layout\">\r\n    <div class=\"top-menu\">\r\n      <div class=\"top-menu__background\">\r\n        <div class=\"top-menu__wrapper\">\r\n          <button class=\"top-menu__burger button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"menu\">\r\n          </button>\r\n          <div class=\"divider\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"divider\">\r\n          </div>\r\n          <button class=\"top-menu__logo button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"logo\">\r\n          </button>\r\n\r\n          <button class=\"top-menu__call top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\" alt=\"call\">\r\n          </button>\r\n          <button class=\"top-menu__chat top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\" alt=\"chat\">\r\n          </button>\r\n          <button class=\"top-menu__profile top-menu--hidden button \">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\" alt=\"profile\">\r\n          </button>\r\n          <div class=\"divider\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"divider\">\r\n          </div>\r\n          <button class=\"top-menu__repair button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\" alt=\"\">\r\n          </button>\r\n          <button class=\"top-menu__checkstatus button\">\r\n            <img src=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\" alt=\"checkstatus\">\r\n          </button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </header>\r\n\r\n  <main class=\"main-sections\">\r\n    <section class=\"top-services\">\r\n      <div class=\"holder\">\r\n        <div class=\"holder__divider\">\r\n          <img src=\"" + ___HTML_LOADER_REPLACEMENT_9___ + "\" alt=\"divider aqua\">\r\n        </div>\r\n        <div class=\"holder__text\">\r\n          <h1>Услуги и сервисы</h1>\r\n        </div>\r\n      </div>\r\n\r\n    </section>\r\n\r\n  </main>\r\n</body>\r\n\r\n</html>";
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);
 
@@ -127,6 +129,16 @@ module.exports = __webpack_require__.p + "img/checkstatus.svg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/divider.svg";
+
+/***/ }),
+
+/***/ "./img/dividerAqua.svg":
+/*!*****************************!*\
+  !*** ./img/dividerAqua.svg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/dividerAqua.svg";
 
 /***/ }),
 

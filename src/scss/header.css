@@ -32,6 +32,9 @@
     display: block;
   }
 }
+.top-menu__call {
+  transition: margin-left 1s ease;
+}
 @media screen and (min-width: 768px) {
   .top-menu__call {
     margin-left: 30vw;
