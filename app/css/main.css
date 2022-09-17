@@ -525,6 +525,37 @@ footer {
     .scroll-menu__element-button p {
       color: #7E7E82; }
 
+.text-box__content {
+  font-size: 14px;
+  overflow: hidden;
+  line-clamp: 5;
+  box-orient: vertical;
+  display: box;
+  margin-left: 16px; }
+  @media screen and (min-width: 768px) {
+    .text-box__content {
+      margin-left: 24px; } }
+  @media screen and (min-width: 1366px) {
+    .text-box__content {
+      margin-left: 34px; } }
+
+.text-box__uncover-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 16px 0 16px 24px; }
+  @media screen and (min-width: 768px) {
+    .text-box__uncover-button {
+      margin-top: 10px;
+      margin-left: 33px; } }
+  @media screen and (min-width: 1366px) {
+    .text-box__uncover-button {
+      margin-top: 14px;
+      margin-left: 40px; } }
+
+.text-box__uncover-text p {
+  font-family: "TT Lakes Medium"; }
+
 *,
 *::after {
   box-sizing: border-box;

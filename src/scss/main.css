@@ -250,6 +250,7 @@ footer {
 @media screen and (min-width: 1366px) {
   .scroll-menu {
     margin-left: 34px;
+    white-space: wrap;
   }
 }
 .scroll-menu::-webkit-scrollbar {
@@ -271,6 +272,44 @@ footer {
   background: #FFFFFF;
   border: 2px solid #B8FFEC;
   border-radius: 6px;
+}
+.scroll-menu__element-button p {
+  color: #7E7E82;
+}
+
+.text-box__content {
+  margin-left: 16px;
+}
+@media screen and (min-width: 768px) {
+  .text-box__content {
+    margin-left: 24px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .text-box__content {
+    margin-left: 34px;
+  }
+}
+.text-box__uncover-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 16px 0 16px 24px;
+}
+@media screen and (min-width: 768px) {
+  .text-box__uncover-button {
+    margin-top: 10px;
+    margin-left: 33px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .text-box__uncover-button {
+    margin-top: 14px;
+    margin-left: 40px;
+  }
+}
+.text-box__uncover-text p {
+  font-family: "TT Lakes Medium";
 }
 
 *,
