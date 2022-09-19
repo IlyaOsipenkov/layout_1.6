@@ -5,7 +5,7 @@
     align-items: center;
     gap: 12px;
 
-    margin-top: 24px;
+    padding-top: 24px;
     margin-bottom: 24px;
 
     @media screen and (min-width: 768px) {
@@ -21,5 +21,34 @@
 
     &__text {
         font-family: $tt-bold;
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+
+        &:focus {
+            background: linear-gradient(to right, #ececec 50%, #F8F8F8 90%);
+        }
+    }
+
+    &__buttons {
+        display: none;
+        position: absolute;
+        top: 26px;
+        right: 30px;
+        gap: 32px;
+
+        @media screen and (min-width: 1366px) {
+            display: flex;
+        }
+    }
+
+    &__button-text {
+        & p {
+            font-family: $tt-medium;
+        }
     }
 }

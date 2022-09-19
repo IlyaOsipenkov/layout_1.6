@@ -4,17 +4,22 @@
   white-space: nowrap;
   overflow-x: auto;
   list-style-type: none;
+  height: 56px;
   margin-left: 16px;
 }
 @media screen and (min-width: 768px) {
   .scroll-menu {
     margin-left: 24px;
+    margin-bottom: 24px;
   }
 }
 @media screen and (min-width: 1366px) {
   .scroll-menu {
     margin-left: 34px;
+    margin-bottom: 16px;
     white-space: wrap;
+    justify-content: flex-start;
+    gap: 30px;
   }
 }
 .scroll-menu::-webkit-scrollbar {

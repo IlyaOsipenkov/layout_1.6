@@ -1,21 +1,68 @@
 .text-box {
 
+
+    padding-bottom: 20px;
+
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(217, 255, 245, 1);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(217, 255, 245, 1);
+    box-shadow: 0px 1px 0px 0px rgba(217, 255, 245, 1);
+
+    @media screen and (min-width: 768px) {
+
+        display: flex;
+        justify-content: space-between;
+        gap: 48px;
+        padding-bottom: 24px;
+    }
+
+    @media screen and (min-width: 1366px) {
+        gap: 36px;
+        padding-bottom: 48px;
+    }
+
+    &__wrapper {
+        @media screen and (min-width: 768px) {
+            width: 50vw;
+        }
+    }
+
+    &__image {
+        @media screen and (min-width: 768px) {
+            width: 50vw;
+            margin-right: 24px;
+            display: flex;
+            justify-content: end;
+
+            & img {
+                border-radius: 5px;
+            }
+        }
+
+        @media screen and (min-width: 1366px) {
+            margin-right: 29px;
+
+        }
+    }
+
     &__content {
 
         font-size: 14px;
         overflow: hidden;
-        line-clamp: 5;
-        box-orient: vertical;
-        display: box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
 
         margin-left: 16px;
 
         @media screen and (min-width: 768px) {
             margin-left: 24px;
+            -webkit-line-clamp: 7;
+
         }
 
         @media screen and (min-width: 1366px) {
             margin-left: 34px;
+            -webkit-line-clamp: 8;
         }
     }
 
@@ -24,8 +71,13 @@
         display: flex;
         align-items: center;
         gap: 16px;
-
         margin: 16px 0 16px 24px;
+
+        cursor: pointer;
+
+        &:focus {
+            background: linear-gradient(to right, #ececec 50%, #F8F8F8 90%);
+        }
 
         @media screen and (min-width: 768px) {
             margin-top: 10px;

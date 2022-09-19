@@ -215,7 +215,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 24px;
+  padding-top: 24px;
   margin-bottom: 24px;
 }
 @media screen and (min-width: 768px) {
@@ -240,16 +240,19 @@ footer {
   white-space: nowrap;
   overflow-x: auto;
   list-style-type: none;
+  height: 56px;
   margin-left: 16px;
 }
 @media screen and (min-width: 768px) {
   .scroll-menu {
     margin-left: 24px;
+    margin-bottom: 24px;
   }
 }
 @media screen and (min-width: 1366px) {
   .scroll-menu {
     margin-left: 34px;
+    margin-bottom: 16px;
     white-space: wrap;
   }
 }
@@ -277,17 +280,55 @@ footer {
   color: #7E7E82;
 }
 
+@media screen and (min-width: 768px) {
+  .text-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .text-box {
+    gap: 36px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text-box__wrapper {
+    width: 50vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text-box__image {
+    width: 50vw;
+    margin-right: 24px;
+  }
+  .text-box__image img {
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .text-box__image {
+    margin-right: 29px;
+  }
+}
 .text-box__content {
+  font-size: 14px;
+  overflow: hidden;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
   margin-left: 16px;
 }
 @media screen and (min-width: 768px) {
   .text-box__content {
     margin-left: 24px;
+    -webkit-line-clamp: 7;
   }
 }
 @media screen and (min-width: 1366px) {
   .text-box__content {
     margin-left: 34px;
+    -webkit-line-clamp: 8;
   }
 }
 .text-box__uncover-button {
@@ -310,6 +351,10 @@ footer {
 }
 .text-box__uncover-text p {
   font-family: "TT Lakes Medium";
+}
+
+.top-services {
+  background: linear-gradient(90deg, #F8F8F8 2%, #FFFFFF 100%);
 }
 
 *,
