@@ -134,6 +134,10 @@ footer {
   }
 }
 
+.header-layout {
+  box-shadow: 0px 1px 0px 0px rgb(217, 255, 245);
+  margin-bottom: 1px;
+}
 @media screen and (min-width: 1366px) {
   .header-layout {
     display: none;
@@ -233,6 +237,30 @@ footer {
 .holder__text {
   font-family: "TT Lakes Bold";
 }
+.holder__button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.holder__button:focus {
+  background: linear-gradient(to right, #ececec 50%, #F8F8F8 90%);
+}
+.holder__buttons {
+  display: none;
+  position: absolute;
+  top: 26px;
+  right: 30px;
+  gap: 32px;
+}
+@media screen and (min-width: 1366px) {
+  .holder__buttons {
+    display: flex;
+  }
+}
+.holder__button-text p {
+  font-family: "TT Lakes Medium";
+}
 
 .scroll-menu {
   display: flex;
@@ -254,6 +282,8 @@ footer {
     margin-left: 34px;
     margin-bottom: 16px;
     white-space: wrap;
+    justify-content: flex-start;
+    gap: 30px;
   }
 }
 .scroll-menu::-webkit-scrollbar {
@@ -280,16 +310,22 @@ footer {
   color: #7E7E82;
 }
 
+.text-box {
+  padding-bottom: 20px;
+  box-shadow: 0px 1px 0px 0px rgb(217, 255, 245);
+}
 @media screen and (min-width: 768px) {
   .text-box {
     display: flex;
     justify-content: space-between;
     gap: 48px;
+    padding-bottom: 24px;
   }
 }
 @media screen and (min-width: 1366px) {
   .text-box {
     gap: 36px;
+    padding-bottom: 48px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -301,6 +337,8 @@ footer {
   .text-box__image {
     width: 50vw;
     margin-right: 24px;
+    display: flex;
+    justify-content: end;
   }
   .text-box__image img {
     border-radius: 5px;
@@ -336,6 +374,10 @@ footer {
   align-items: center;
   gap: 16px;
   margin: 16px 0 16px 24px;
+  cursor: pointer;
+}
+.text-box__uncover-button:focus {
+  background: linear-gradient(to right, #ececec 50%, #F8F8F8 90%);
 }
 @media screen and (min-width: 768px) {
   .text-box__uncover-button {
@@ -355,6 +397,19 @@ footer {
 
 .top-services {
   background: linear-gradient(90deg, #F8F8F8 2%, #FFFFFF 100%);
+  margin-bottom: 1px;
+}
+
+.repair-brands {
+  background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
+}
+.repair-brands__header {
+  height: 80px;
+  padding-left: 16px;
+}
+.repair-brands__header h2 {
+  font-size: 16px;
+  font-weight: normal;
 }
 
 *,
