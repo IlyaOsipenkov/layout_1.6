@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "~normalize.css";
+@import "../../node_modules/swiper/swiper-bundle.css";
 @font-face {
   font-family: "notosans";
   src: url("../fonts/notosans.woff2") format("woff2");
@@ -416,12 +417,35 @@ footer {
   height: 140px;
   border-color: #F8F8F8;
 }
+@media screen and (min-width: 768px) {
+  .repair-brands__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.repair-brands__btn-more-info {
+  display: none;
+  margin-left: 32px;
+}
+.repair-brands__btn-more-info p {
+  font-family: "TT Lakes Medium";
+}
+.repair-brands__btn-more-info img {
+  width: 8px;
+  height: 11px;
+}
+@media screen and (min-width: 768px) {
+  .repair-brands__btn-more-info {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+}
 
 .btn-repair {
-  width: 240px;
+  width: 232px;
   height: 72px;
   margin-top: 16px;
-  margin-left: 16px;
   cursor: pointer;
   background-color: white;
   border: 1px solid #EAEAEA;
@@ -430,6 +454,27 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0 16px;
+}
+.btn-repair:first-of-type {
+  margin-left: 16px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  margin-left: 8px !important;
+  background-color: #8b8b8b !important;
+}
+
+.swiper {
+  width: 100vw;
+  height: 130px;
+}
+@media screen and (min-width: 768px) {
+  .swiper {
+    height: 180px;
+    margin-bottom: 24px;
+  }
 }
 
 *,
