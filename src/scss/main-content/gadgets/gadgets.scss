@@ -1,6 +1,18 @@
 .gadgets {
 
+    margin-top: 1px;
 
+    -webkit-box-shadow: 0px 1px 0px 0px #d9fff5;
+    -moz-box-shadow: 0px 1px 0px 0px #d9fff5;
+    box-shadow: 0px 1px 0px 0px #d9fff5;
+
+    @media screen and (min-width: 768px) {
+        padding-bottom: 32px;
+    }
+
+    @media screen and (min-width: 1366px) {
+        padding-bottom: 50px;
+    }
 
     &__header {
         background: $bgcLinearGtoW;
@@ -21,6 +33,106 @@
 
         @media screen and (min-width: 1366px) {
             padding-left: 32px;
+        }
+    }
+
+    &__btn-more-info {
+
+        display: none;
+        padding-left: 32px;
+        cursor: pointer;
+
+        & p {
+            font-family: $tt-medium;
+        }
+
+        & img {
+            width: 8px;
+            height: 11px;
+        }
+
+        @media screen and (min-width: 768px) {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+
+        @media screen and (min-width: 1366px) {
+            padding-left: 39px;
+        }
+    }
+}
+
+.swiper-gadgets {
+    width: calc(100vw - 16px);
+    height: 217px;
+    margin-left: 16px;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+
+
+    @media screen and (min-width: 768px) {
+        width: calc(100vw - 24px);
+        margin-left: 24px;
+        margin-bottom: 24px;
+        height: 176px;
+    }
+
+    @media screen and (min-width: 900px) {
+        width: calc(100vw - 32px);
+        margin-left: 32px;
+    }
+
+    @media screen and (min-width: 1366px) {
+        width: calc(100vw - 32px);
+        margin-left: 32px;
+    }
+
+    &__list {
+
+        @media screen and (min-width: 768px) {
+            display: grid;
+            gap: 16px;
+            grid-template-columns: 240px 240px 240px;
+        }
+
+        @media screen and (min-width: 1366px) {
+            display: grid;
+            grid-template-columns: 240px 240px 240px 240px;
+        }
+    }
+
+    &__item {
+        width: 240px;
+        height: 160px;
+        cursor: pointer;
+
+        background-color: white;
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+
+        padding: 16px;
+        margin-top: 16px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @media screen and (min-width: 768px) {
+            width: 224px;
+            height: 160px;
+        }
+
+        @media screen and (min-width: 1366px) {
+            width: 240px;
+        }
+
+        & img {
+            align-self: flex-end;
         }
     }
 }

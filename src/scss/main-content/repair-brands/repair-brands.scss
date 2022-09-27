@@ -1,6 +1,17 @@
 .repair-brands {
-
     margin-bottom: 1px;
+
+    -webkit-box-shadow: 0px 1px 0px 0px #d9fff5;
+    -moz-box-shadow: 0px 1px 0px 0px #d9fff5;
+    box-shadow: 0px 1px 0px 0px #d9fff5;
+
+    @media screen and (min-width: 768px) {
+        padding-bottom: 32px;
+    }
+
+    @media screen and (min-width: 1366px) {
+        padding-bottom: 50px;
+    }
 
     &__header {
         background: $bgcLinearGtoW;
@@ -31,9 +42,13 @@
 
         @media screen and (min-width: 768px) {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            gap: 0 16px;
+            grid-template-columns: 240px 240px 240px;
+        }
 
-
+        @media screen and (min-width: 1366px) {
+            display: grid;
+            grid-template-columns: 240px 240px 240px 240px;
         }
     }
 
@@ -64,8 +79,11 @@
     }
 }
 
+
+
+
 .btn-repair {
-    width: 232px;
+    width: 240px;
     height: 72px;
     margin-top: 16px;
     cursor: pointer;
@@ -79,6 +97,15 @@
     align-items: center;
     padding: 0 16px;
 
+    @media screen and (min-width: 768px) {
+        width: 224px;
+        height: 72px;
+    }
+
+    @media screen and (min-width: 1366px) {
+        width: 240px;
+    }
+
 }
 
 .swiper-pagination-bullet {
@@ -89,22 +116,25 @@
 }
 
 .swiper {
-    width: 100vw;
+    width: calc(100vw - 16px);
     height: 130px;
     margin-left: 16px;
 
     @media screen and (min-width: 768px) {
-        height: 180px;
+        width: calc(100vw - 24px);
+        height: 176px;
         margin-bottom: 24px;
         margin-left: 24px;
     }
 
     @media screen and (min-width: 900px) {
-        width: 85vw;
+        width: calc(100vw - 32px);
         margin-left: 32px;
     }
 
     @media screen and (min-width: 1366px) {
-        width: 100vw;
+        width: calc(100vw - 32px);
+        // height: 196px;
+        // margin-bottom: 4px;
     }
 }
