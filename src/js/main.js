@@ -19,6 +19,10 @@ const slidesPerViewScnd = () => {
     const slide = document.getElementsByClassName('swiper-gadgets__item')[0].clientWidth
     return (screenWidth) / (slide + 8)
 }
+const slidesPerViewPrices = () => {
+    const slide = document.getElementsByClassName('swiper-service-prise__element')[0].clientWidth
+    return (screenWidth) / (slide + 8)
+}
 
 
 if (isMobile(screenWidth)) {
@@ -171,3 +175,45 @@ const clickHandlerGadgets = () => {
 }
 
 btnMoreInfoGadgets.addEventListener('click', clickHandlerGadgets)
+
+
+//service-price swiper
+
+if (isMobile(screenWidth)) {
+    swiper = new Swiper('.swiper-service-prise', {
+        pagination: {
+            el: '.swiper-pagination-service-price',
+            type: 'bullets',
+            clickable: true,
+        },
+        slidesPerView: slidesPerViewPrices(),
+        spaceBetween: 32,
+        updateOnWindowResize: true,
+    })
+}
+
+const resizePrices = () => {
+    screenWidth = window.innerWidth || document.documentElement.clientWidth ||
+        document.body.clientWidth
+    console.log(screenWidth)
+    if (swiper != undefined) {
+        if (isMobile(screenWidth)) {
+            swiper = new Swiper('.swiper-service-prise', {
+                pagination: {
+                    el: '.swiper-pagination-service-price',
+                    type: 'bullets',
+                    clickable: true,
+                },
+                slidesPerView: slidesPerViewPrices(),
+                spaceBetween: 32,
+                updateOnWindowResize: true,
+            })
+        } else {
+            swiper.destroy(false, false)
+            swiper.disable()
+        }
+    }
+}
+
+
+window.addEventListener('resize', resizePrices)

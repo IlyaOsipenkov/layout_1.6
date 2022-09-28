@@ -27,15 +27,37 @@
 
 .swiper-service-prise {
 
+    width: calc(100vw - 16px);
+    height: 258px;
+    margin-left: 16px;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+
+
+
     &__element {
         width: 260px;
         height: 200px;
-        background-color: #FFFFFF;
+        cursor: pointer;
+
+        background-color: white;
+        border: 1px solid #EAEAEA;
         border-radius: 6px;
         padding: 16px;
         padding-bottom: 20px;
+        margin-top: 16px;
+    }
 
-
+    &__list {
+        margin-bottom: 24px;
     }
 }
 
@@ -45,6 +67,8 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
+
+
 
     & h3 {
         font-size: 16px;
