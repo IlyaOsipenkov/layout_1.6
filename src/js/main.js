@@ -1,6 +1,9 @@
 import '../../node_modules/focus-visible/dist/focus-visible';
 import '../scss/main.scss';
 import '../index.html';
+import './width-fix/width-fix.js';
+import './modals/modals.js';
+import './aside-menu/aside-menu.js';
 
 let swiper = undefined
 let screenWidth = window.innerWidth || document.documentElement.clientWidth ||
@@ -177,6 +180,8 @@ const clickHandlerGadgets = () => {
 btnMoreInfoGadgets.addEventListener('click', clickHandlerGadgets)
 
 
+
+
 //service-price swiper
 
 if (isMobile(screenWidth)) {
@@ -217,3 +222,33 @@ const resizePrices = () => {
 
 
 window.addEventListener('resize', resizePrices)
+
+
+//top-services section btn-more-info
+
+const btnMoreInfoTopServices = document.querySelector('.text-box__uncover-button')
+const textBoxTopServices = document.querySelector('.text-box__content')
+// const btnDivMoreInfo = document.getElementsByClassName('repair-brands__wrapper-more-info')
+
+let buttonStateTopServices = false
+
+
+const clickHandlerTopServices = () => {
+    const [arrows, text] = btnMoreInfoTopServices.children
+    console.log('click handler')
+    const toggle = (state) => {
+        if (!state) {
+            text.innerHTML = 'Скрыть'
+            arrows.style.transform = 'rotate(180deg)'
+            textBoxTopServices.style.height = '160px'
+        } else {
+            text.innerHTML = 'Показать все'
+            arrows.style.transform = 'rotate(0)'
+            textBoxTopServices.style.height = '112px'
+        }
+        buttonStateTopServices = !buttonStateTopServices
+    }
+    toggle(buttonStateTopServices)
+}
+
+btnMoreInfoTopServices.addEventListener('click', clickHandlerTopServices)
