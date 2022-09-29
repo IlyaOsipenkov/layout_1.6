@@ -14,7 +14,8 @@
   background-color: white;
 }
 .top-menu__wrapper {
-  width: 90%;
+  width: calc(100vw - 32px);
+  margin: 0 16px;
   min-height: 88px;
   margin: auto;
   display: flex;

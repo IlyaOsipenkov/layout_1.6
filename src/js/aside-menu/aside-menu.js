@@ -29,8 +29,8 @@ btnBurgerMenu.addEventListener('click', openMenuHandler)
 // }
 
 const closeMenuContainer = (event) => {
-    console.log('test close menu')
-    if (event.path[0].tagName === 'ASIDE' || event.path[1].classList[0] === 'box-one__icon') {
+    console.log(event.path)
+    if (event.path[0].tagName === 'ASIDE' || event.path[2].classList[0] === 'box-one__icon') {
         asideMenuWrapper.style.display = 'none'
     }
 }

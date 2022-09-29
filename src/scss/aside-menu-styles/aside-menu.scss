@@ -7,18 +7,24 @@
     width: 100vw;
     height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
     background-color: rgba($color: #ffffff, $alpha: 0.96);
-    pointer-events: none;
     transition: background-color .15s ease;
 }
 
 .aside-menu {
     position: absolute;
     left: 0;
-    width: clamp(320px, 40%, 360px);
     width: 320px;
     height: 100vh;
     z-index: 3;
     background-color: #FFFFFF;
+
+    @media screen and (min-width: 360px) {
+        width: 360px;
+    }
+
+    @media screen and (min-width: 768px) {
+        box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
+    }
 }
 
 .sidebar {
@@ -33,9 +39,11 @@
 }
 
 .header-menu {
+    width: calc(100% - 32px);
+    margin: 0 16px;
     display: flex;
     flex-wrap: wrap;
-    gap: 78px;
+    justify-content: space-between;
 }
 
 .box-one {
@@ -43,7 +51,7 @@
     width: 178px;
     height: 89px;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 17px;
 }
 
@@ -54,7 +62,7 @@
 .divider {
     position: absolute;
     left: 0;
-    top: 102px;
+    top: 88px;
 
 }
 
@@ -77,6 +85,7 @@
         outline: none;
         background-color: transparent;
         border: 1px solid transparent;
+        text-align: left;
         cursor: pointer;
 
         &:focus {
@@ -140,14 +149,15 @@
         margin-top: 24px;
 
         & button {
+            font-family: $tt-medium;
             border: none;
             outline: none;
             background-color: transparent;
             border: 1px solid transparent;
 
-            // &:first-child {
-            //     color: #7E7E82;
-            // }
+            &:first-child {
+                color: #7E7E82;
+            }
 
             &:focus {
                 color: #7E7E82;
