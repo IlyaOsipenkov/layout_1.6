@@ -669,6 +669,69 @@ footer {
   align-self: flex-end;
 }
 
+.service-prise-table {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .service-prise-table {
+    display: block;
+    margin-bottom: 24px;
+  }
+  .service-prise-table__header-wrapper {
+    width: calc(100vw - 80px);
+    margin: 0 40px 16px 40px;
+    display: grid;
+    grid-template-columns: 55fr 15fr 15fr 15fr;
+  }
+  .service-prise-table__header-wrapper h3 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #7E7E82;
+    margin-bottom: 4px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .service-prise-table__header-wrapper {
+    width: calc(100vw - 112px);
+    margin: 0 56px 16px 56px;
+  }
+}
+
+.service-price-main {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .service-price-main {
+    display: block;
+    width: calc(100vw - 48px);
+    margin: 0 24px;
+    border-radius: 6px;
+    background-color: #fff;
+    color: black;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .service-price-main {
+    margin: 0 32px;
+  }
+}
+.service-price-main__content-wrapper {
+  width: calc(100vw - 40px);
+  padding: 24px 16px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 55fr 15fr 15fr 15fr;
+  box-shadow: 0px 25px 0px -24px rgba(202, 202, 202, 0.2);
+}
+@media screen and (min-width: 1366px) {
+  .service-price-main__content-wrapper {
+    padding: 24px 24px;
+  }
+}
+
 .service-price {
   margin-top: 1px;
 }
@@ -687,21 +750,45 @@ footer {
 @media screen and (min-width: 768px) {
   .service-price__header {
     padding-left: 24px;
+    margin-bottom: 31px;
   }
 }
 @media screen and (min-width: 1366px) {
   .service-price__header {
     padding-left: 32px;
+    margin-bottom: 47px;
   }
 }
 
+.swiper-service-prise {
+  width: calc(100vw - 16px);
+  height: 258px;
+  margin-left: 16px;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  .swiper-service-prise {
+    display: none;
+  }
+}
 .swiper-service-prise__element {
   width: 260px;
   height: 200px;
-  background-color: #FFFFFF;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #EAEAEA;
   border-radius: 6px;
   padding: 16px;
   padding-bottom: 20px;
+  margin-top: 16px;
+}
+.swiper-service-prise__list {
+  margin-bottom: 24px;
 }
 
 .table {
@@ -723,11 +810,90 @@ footer {
   bottom: 16px;
 }
 
+.footer-layout {
+  background-color: #F8F8F8;
+}
+@media screen and (min-width: 768px) {
+  .footer-layout {
+    margin-left: 24px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .footer-layout {
+    margin-left: 32px;
+  }
+}
+
+.footer-top-section {
+  margin: 0 16px 50px 16px;
+}
+.footer-top-section p {
+  margin-bottom: 16px;
+}
+.footer-top-section__button {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-top-section__button p {
+  text-align: left;
+  align-self: center;
+  font-family: "TT Lakes Medium";
+}
+.footer-top-section__button p img {
+  margin-bottom: -10px;
+}
+
+.footer-bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+  color: #7E7E82;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .footer-bottom-section {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .footer-bottom-section {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-bottom-section__info {
+    width: 31vw;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-bottom-section__politice {
+    width: 31vw;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-bottom-section__offer {
+    width: 31vw;
+    text-align: right;
+  }
+}
+
 *,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+* {
+  outline: 1px solid red;
 }
 
 body {
@@ -742,4 +908,5 @@ button {
   border: none;
   outline: none;
   background-color: transparent;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

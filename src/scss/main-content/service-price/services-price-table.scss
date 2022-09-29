@@ -4,6 +4,7 @@
 
     @media screen and (min-width: 768px) {
         display: block;
+        margin-bottom: 24px;
 
         &__header-wrapper {
             width: calc(100vw - 80px);

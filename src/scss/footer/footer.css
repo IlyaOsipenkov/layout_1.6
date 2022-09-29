@@ -1,0 +1,21 @@
+.footer-layout {
+  background-color: #F8F8F8;
+}
+
+.footer-top-section {
+  margin: 0 16px;
+}
+.footer-top-section p {
+  margin-bottom: 16px;
+}
+.footer-top-section__button {
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-top-section__button p {
+  text-align: left;
+  align-self: center;
+}
+.footer-top-section__button p img {
+  margin-bottom: -10px;
+}/*# sourceMappingURL=footer.css.map */
