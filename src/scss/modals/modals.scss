@@ -7,7 +7,7 @@
     // for myself
     height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
     background-color: rgba($color: #ffffff, $alpha: 0);
-    z-index: 2;
+    z-index: 3;
     display: none;
     pointer-events: none;
     transition: background-color .15s ease;

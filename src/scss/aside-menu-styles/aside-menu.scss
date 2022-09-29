@@ -8,6 +8,12 @@
     height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
     background-color: rgba($color: #ffffff, $alpha: 0.96);
     transition: background-color .15s ease;
+
+    @media screen and (min-width: 1366px) {
+        background-color: transparent;
+        pointer-events: none;
+        display: block;
+    }
 }
 
 .aside-menu {
@@ -15,7 +21,7 @@
     left: 0;
     width: 320px;
     height: 100vh;
-    z-index: 3;
+    z-index: 2;
     background-color: #FFFFFF;
 
     @media screen and (min-width: 360px) {
@@ -24,6 +30,12 @@
 
     @media screen and (min-width: 768px) {
         box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
+    }
+
+    @media screen and (min-width: 1366px) {
+        box-shadow: none;
+        pointer-events: all;
+        width: 305px;
     }
 }
 
@@ -53,6 +65,13 @@
     align-items: center;
     justify-content: flex-start;
     gap: 17px;
+
+    &__icon {
+        @media screen and (min-width: 1366px) {
+            display: none;
+
+        }
+    }
 }
 
 .box-two {

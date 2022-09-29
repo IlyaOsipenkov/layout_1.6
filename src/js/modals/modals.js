@@ -1,4 +1,6 @@
 let e = null
+let screenWidth = window.innerWidth || document.documentElement.clientWidth ||
+    document.body.clientWidth;
 
 const getTextAreaEl = () => {
     e = document.getElementsByClassName('modal__input--last')[0]
@@ -13,9 +15,15 @@ const closeModalContaier = (event) => {
 }
 modalCointaier.addEventListener('click', closeModalContaier)
 const placeOrder = document.getElementsByClassName('place-order')[0]
-const placeOrderMobile = document.getElementsByClassName('top-menu__repair')[0]
+const placeOrderMobile = document.getElementsByClassName('footer-btn-call')[0]
+
+const mobileMenu = document.getElementsByClassName('aside-menu-container')[0]
+
 const handlePlaceOrderClick = () => {
     modalCointaier.classList.add('modal-container--visible')
+    if (screenWidth < 1366) {
+        mobileMenu.style.display = 'none'
+    }
     changeModalHeaderText('placeOrder')
     getTextAreaEl()
 }
@@ -28,6 +36,9 @@ const repairStatus = document.getElementsByClassName('repair-status')[0]
 const repairStatusMobile = document.getElementsByClassName('top-menu__checkstatus')[0]
 const handleRepairStatusClick = () => {
     modalCointaier.classList.add('modal-container--visible')
+    if (screenWidth < 1366) {
+        mobileMenu.style.display = 'none'
+    }
     changeModalHeaderText('repairStatus')
     getTextAreaEl()
 }
