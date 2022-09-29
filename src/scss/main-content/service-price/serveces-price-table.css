@@ -1,9 +1,0 @@
-.services-prise-table {
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .services-prise-table__header-wrapper {
-    display: grid;
-    grid-template-columns: 50fr 15fr 35fr;
-  }
-}/*# sourceMappingURL=serveces-price-table.css.map */
