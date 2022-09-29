@@ -5,6 +5,7 @@
 @import "settings";
 @import "header";
 @import "main-content";
+@import "./footer/footer";
 
 *,
 *::after {
@@ -30,4 +31,5 @@ button {
   border: none;
   outline: none;
   background-color: transparent;
+  cursor: pointer;
 }

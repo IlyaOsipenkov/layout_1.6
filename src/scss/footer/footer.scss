@@ -1,0 +1,27 @@
+.footer-layout {
+    background-color: #F8F8F8;
+
+}
+
+.footer-top-section {
+    margin: 0 16px;
+
+    & p {
+        margin-bottom: 16px;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: flex-start;
+
+        & p {
+            text-align: left;
+            align-self: center;
+        }
+
+        & img {
+            align-self: flex-start;
+        }
+
+    }
+}
